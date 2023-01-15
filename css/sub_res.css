@@ -1,0 +1,72 @@
+@media screen and (min-width: 768px) {
+    .title_banner h2 {
+        padding-left: 30px;
+        padding-right: 0;
+        font-size: 40px;
+    }
+    .gonfalon_container {
+        padding: 100px 0;
+    }
+    ul {
+        gap: 5%;
+    }
+    ul li {
+        width: 30%;
+        padding-bottom: 40px;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .gonfalon_container {
+        padding: 150px 0;
+    }
+    ul {
+        gap: 2%;
+        flex-wrap: nowrap;
+    }
+    ul li {
+        width: 15%;
+    }
+}
+
+
+/* .title_banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+    background-color: #00155f;
+}
+.title_banner h2 {
+    padding-left: 30px;
+    font-size: 40px;
+    color:#fff;
+}
+
+.gonfalon_container {
+    padding: 150px 0;
+    background-color: #eeeee4;
+}
+.gonfalon_wrap {
+    max-width: 1450px;
+    margin: 0 auto;
+}
+ul {
+    display: flex;
+    gap: 35px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+ul li {
+    width: 15%;
+    font-size: 20px;
+    text-align: center;
+}
+ul li img {
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: rgb(213 196 108) 0px 0px 0px 2px;
+    border-radius: 0.125rem;
+} */
