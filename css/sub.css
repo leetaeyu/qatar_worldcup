@@ -1,0 +1,12 @@
+.title_banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 145px;
+    background-color: #00155f;
+}
+.title_banner h2 {
+    padding-left: 30px;
+    font-size: 40px;
+    color:#fff;
+}

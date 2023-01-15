@@ -1,0 +1,174 @@
+@charset 'UTF-8';
+@media screen and (max-width: 767px) {}
+@media screen and (min-width: 768px) {
+    .insta-item {
+        width: 33.3333%;
+        padding-top: 33.3333%;
+    }
+    .partners-item {
+        display: block;
+        width: 15%;
+    }
+    .sponsors-item {
+        display: block;
+        width: 13%;
+    }
+    .supporter-item {
+        display: block;
+        width: 10%;
+    }
+    .btn-circle {
+        display: block;
+        position: fixed;
+        right: 10px;
+        font-size: 1.1em;
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url('../images/football.png');
+        transition: 0.3s;        
+    }
+    .btn-circle:hover {
+        line-height: 36px;
+    }
+    .btn-top {
+        bottom: 90px;
+    }
+    .btn-top:hover {
+        transform: translateY(-10px);
+    }
+    .btn-end {
+        bottom: 40px;
+    }
+    .btn-end:hover {
+        transform: translateY(10px);
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {}
+@media screen and (min-width: 1280px) {
+    .m-gnb-open, .m-gnb-close-wrap, .hd-sns-wrap {
+        display: none;
+    }
+    body {
+        font-size: 16px;
+    }
+    #worldcup-hd > .wrapper {
+        height: 90px;
+    }
+    .worldcup-gnb-wrap {
+        position: static;
+        width: inherit;
+        height: inherit;
+        background-color: transparent;
+        overflow: inherit;
+    }
+    #worldcup-gnb > ol {
+        padding: 0;
+        border-bottom: 0;
+    }
+    .gnb1 {
+        float: left;
+    }
+    .gnb2 {
+        float: right;
+        margin-right: 60px;
+    }
+    .depth1 {
+        position: relative;
+        float: left;
+    }
+    .depth1 > a {
+        color: #fff;
+        line-height: 90px;
+    }
+    .depth1:hover > a {
+        color: #fff;
+    }
+    .depth1 > a:after {
+        display: none;
+    }
+    .depth2 { /* 서브메뉴 */
+        display: none;
+        position: absolute;
+        left: 50%;
+        top: 80px;
+        width: 180px;
+        padding: 20px 0;
+        margin-left: -90px;
+        line-height: 2.4;
+        text-align: center;
+        background-color: #661974;
+        box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    }
+    .depth2:before { /* 삼각형 */
+        position: absolute;
+        left: 50%;
+        top: -18px;
+        width: 0;
+        height: 0;
+        margin-left: -7px;
+        border-width: 9px 7px;
+        border-style: solid;
+        border-color: transparent transparent #661974 transparent;
+        content: '';
+    }
+
+    /* 푸터 */
+    .insta-item {
+        width: 16.6666%;
+        padding-top: 16.6666%;
+    }
+    .ft-bbs-item {
+        float: left;
+        width: 33.3333%;
+        height: 180px;
+        padding: 40px 3% 0;
+        border-bottom: 0;
+    }
+    .ft-bbs-item:before { /*세로짝대기*/
+        position: absolute;
+        right: 0;
+        top: 50px;
+        width: 1px;
+        height: 80px;
+        background-color: #661974;
+        content: '';
+    }
+    .ft-bbs-item.last:before {
+        display: none;
+    }
+    .bbs-dl:after { /* 파랑 화살표 */
+        right: 10%;
+    }
+    .ft-sns h3 {
+        display: block;
+    }
+    .partners-item {
+        width: 9%;
+    }
+    .sponsors-item {
+        width: 7%;
+    }
+    .supporter-item {
+        width: 5%;
+    }
+    .btn-circle {
+        right: 50px;
+        width: 48px;
+        height: 48px;
+        font-size: 1.3em;
+        line-height: 48px;
+    }
+    .btn-top {
+        bottom: 100px;
+    }
+    
+    /* 메인 */
+    .ani-top {
+        transform: translateY(25%);
+    }
+    .fade-in {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
