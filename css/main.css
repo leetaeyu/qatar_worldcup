@@ -143,7 +143,7 @@
     font-size: 1.2em;
 }
 .main-orignals li {
-    margin: 20% 2%;
+    margin: 0 2% 20% 2%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
