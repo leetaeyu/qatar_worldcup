@@ -169,6 +169,19 @@ body {
     display: block;
     color: #fff;
 }
+.depth1 > .true {
+    position: relative;
+}
+.true::before {
+    position: absolute;
+    top: 0.8rem;
+    right: 12rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    content: '';
+}
 .depth2 a:hover {
     color: #000;
 }

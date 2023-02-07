@@ -78,8 +78,22 @@
         float: left;
     }
     .depth1 > a {
+        display: block;
         color: #fff;
         line-height: 90px;
+    }
+    .depth1 > .true {
+        position: relative;
+    }
+    .true::before {
+        position: absolute;
+        top:2rem;
+        right: 0rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background-color: #fff;
+        content: '';
     }
     .depth1:hover > a {
         color: #fff;
