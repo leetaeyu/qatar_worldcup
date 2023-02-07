@@ -88,7 +88,7 @@
     .true::before {
         position: absolute;
         top:2rem;
-        right: 0rem;
+        right: 0.5rem;
         width: 0.5rem;
         height: 0.5rem;
         border-radius: 50%;
